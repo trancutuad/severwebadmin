@@ -50,7 +50,7 @@ app.use('/api/upload', uploadRouter);
 /**
  * Get port from environment and store in Express.
  */
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 app.set('port', port);
 
 /**
